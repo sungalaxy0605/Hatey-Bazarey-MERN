@@ -1,468 +1,80 @@
-Contribution: 2019-08-12 20:00
+# Hatey-Bazarey-MERN
+Full-Stack Ecommerce with Admin Dashboard & stripe Payment Gateway.
 
-Contribution: 2019-08-12 20:01
+## Demo
+[This application is deployed on Render Please check it out : 😀 smile](https://hateybazarey.onrender.com) 
+Website load may take some time, so please wait.
 
-Contribution: 2019-08-12 20:02
+## 🖥️ Tech Stack
+**Frontend:**
 
-Contribution: 2019-08-12 20:03
+![reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
+![react-router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)&nbsp;
+![redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)&nbsp;
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)&nbsp;
 
-Contribution: 2019-08-12 20:04
 
-Contribution: 2019-08-12 20:05
+**Backend:**
 
-Contribution: 2019-08-13 20:00
+![nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)&nbsp;
+![expressjs](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)&nbsp;
+![mongodb](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)&nbsp;
+![jwt](	https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)&nbsp;
 
-Contribution: 2019-08-16 20:00
+**Payment Gateway:**
 
-Contribution: 2019-08-16 20:01
+![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white)
 
-Contribution: 2019-08-21 20:00
+**Deployed On:**
 
-Contribution: 2019-08-28 20:00
+![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
 
-Contribution: 2019-08-28 20:01
+**Image Management:** [Cloudinary](https://cloudinary.com/)
+**Mail Service:** [mailtrap](https://mailtrap.io/)
 
-Contribution: 2019-08-28 20:02
 
-Contribution: 2019-08-28 20:03
 
-Contribution: 2019-08-28 20:04
 
-Contribution: 2019-08-28 20:05
+## 🚀 Features
+- custom title on each page
+- auto login
+- Login/Signup User Account
+- Update Profile/Password User Account
+- Reset Password Mail using Mailtrap
+- User can view Single Product
+- Cart Add/Remove Items | Update Quantities
+- Products Pagination (Default 8 Products Per Page)
+- Product Search
+- Product Filters Based on Category, Ratings
+- Shipping Info in Session Storage
+- Before payment user passes 3 steps Shipping Address | Confirm Order | Card Details
+- My Orders (With All Filters)
+- Order Details of All Ordered Item
+- Review Products User Account
+- Admin: Dashboard access to only admin roles
+- Admin: Add/Update Products
 
-Contribution: 2019-08-28 20:06
 
-Contribution: 2019-08-28 20:07
 
-Contribution: 2019-08-29 20:00
+## Database Seed
 
-Contribution: 2019-08-30 20:00
+* The seed command will put products in database
+* For more information, see code [here](Backend/utils/seeder.js)
 
-Contribution: 2019-08-30 20:01
+```
+npm run seed
+```
 
-Contribution: 2019-08-30 20:02
+# Speed checking
 
-Contribution: 2019-09-02 20:00
-
-Contribution: 2019-09-02 20:01
-
-Contribution: 2019-09-02 20:02
-
-Contribution: 2019-09-02 20:03
-
-Contribution: 2019-09-03 20:00
-
-Contribution: 2019-09-04 20:00
-
-Contribution: 2019-09-04 20:01
-
-Contribution: 2019-09-04 20:02
-
-Contribution: 2019-09-04 20:03
-
-Contribution: 2019-09-04 20:04
-
-Contribution: 2019-09-04 20:05
-
-Contribution: 2019-09-04 20:06
-
-Contribution: 2019-09-04 20:07
-
-Contribution: 2019-09-05 20:00
-
-Contribution: 2019-09-05 20:01
-
-Contribution: 2019-09-05 20:02
-
-Contribution: 2019-09-06 20:00
-
-Contribution: 2019-09-06 20:01
-
-Contribution: 2019-09-06 20:02
-
-Contribution: 2019-09-06 20:03
-
-Contribution: 2019-09-06 20:04
-
-Contribution: 2019-09-06 20:05
-
-Contribution: 2019-09-06 20:06
-
-Contribution: 2019-09-09 20:00
-
-Contribution: 2019-09-09 20:01
-
-Contribution: 2019-09-09 20:02
-
-Contribution: 2019-09-09 20:03
-
-Contribution: 2019-09-10 20:00
-
-Contribution: 2019-09-10 20:01
-
-Contribution: 2019-09-11 20:00
-
-Contribution: 2019-09-11 20:01
-
-Contribution: 2019-09-11 20:02
-
-Contribution: 2019-09-11 20:03
-
-Contribution: 2019-09-11 20:04
-
-Contribution: 2019-09-11 20:05
-
-Contribution: 2019-09-11 20:06
-
-Contribution: 2019-09-12 20:00
-
-Contribution: 2019-09-12 20:01
-
-Contribution: 2019-09-13 20:00
-
-Contribution: 2019-09-13 20:01
-
-Contribution: 2019-09-13 20:02
-
-Contribution: 2019-09-16 20:00
-
-Contribution: 2019-09-16 20:01
-
-Contribution: 2019-09-16 20:02
-
-Contribution: 2019-09-16 20:03
-
-Contribution: 2019-09-17 20:00
-
-Contribution: 2019-09-17 20:01
-
-Contribution: 2019-09-17 20:02
-
-Contribution: 2019-09-17 20:03
-
-Contribution: 2019-09-18 20:00
-
-Contribution: 2019-09-18 20:01
-
-Contribution: 2019-09-18 20:02
-
-Contribution: 2019-09-18 20:03
-
-Contribution: 2019-09-18 20:04
-
-Contribution: 2019-09-18 20:05
-
-Contribution: 2019-09-18 20:06
-
-Contribution: 2019-09-18 20:07
-
-Contribution: 2019-09-23 20:00
-
-Contribution: 2019-09-23 20:01
-
-Contribution: 2019-09-25 20:00
-
-Contribution: 2019-09-25 20:01
-
-Contribution: 2019-09-25 20:02
-
-Contribution: 2019-09-25 20:03
-
-Contribution: 2019-09-25 20:04
-
-Contribution: 2019-09-25 20:05
-
-Contribution: 2019-09-25 20:06
-
-Contribution: 2019-09-25 20:07
-
-Contribution: 2019-09-27 20:00
-
-Contribution: 2019-09-27 20:01
-
-Contribution: 2019-09-30 20:00
-
-Contribution: 2019-09-30 20:01
-
-Contribution: 2019-09-30 20:02
-
-Contribution: 2019-10-02 20:00
-
-Contribution: 2019-10-02 20:01
-
-Contribution: 2019-10-02 20:02
-
-Contribution: 2019-10-02 20:03
-
-Contribution: 2019-10-02 20:04
-
-Contribution: 2019-10-02 20:05
-
-Contribution: 2019-10-04 20:00
-
-Contribution: 2019-10-04 20:01
-
-Contribution: 2019-10-04 20:02
-
-Contribution: 2019-10-07 20:00
-
-Contribution: 2019-10-07 20:01
-
-Contribution: 2019-10-07 20:02
-
-Contribution: 2019-10-08 20:00
-
-Contribution: 2019-10-09 20:00
-
-Contribution: 2019-10-10 20:00
-
-Contribution: 2019-10-10 20:01
-
-Contribution: 2019-10-10 20:02
-
-Contribution: 2019-10-10 20:03
-
-Contribution: 2019-10-10 20:04
-
-Contribution: 2019-10-11 20:00
-
-Contribution: 2019-10-11 20:01
-
-Contribution: 2019-10-11 20:02
-
-Contribution: 2019-10-11 20:03
-
-Contribution: 2019-10-11 20:04
-
-Contribution: 2019-10-11 20:05
-
-Contribution: 2019-10-11 20:06
-
-Contribution: 2019-10-14 20:00
-
-Contribution: 2019-10-14 20:01
-
-Contribution: 2019-10-18 20:00
-
-Contribution: 2019-10-18 20:01
-
-Contribution: 2019-10-21 20:00
-
-Contribution: 2019-10-21 20:01
-
-Contribution: 2019-10-21 20:02
-
-Contribution: 2019-10-21 20:03
-
-Contribution: 2019-10-21 20:04
-
-Contribution: 2019-10-21 20:05
-
-Contribution: 2019-10-22 20:00
-
-Contribution: 2019-10-22 20:01
-
-Contribution: 2019-10-22 20:02
-
-Contribution: 2019-10-23 20:00
-
-Contribution: 2019-10-23 20:01
-
-Contribution: 2019-10-23 20:02
-
-Contribution: 2019-10-24 20:00
-
-Contribution: 2019-10-24 20:01
-
-Contribution: 2019-10-24 20:02
-
-Contribution: 2019-10-24 20:03
-
-Contribution: 2019-10-24 20:04
-
-Contribution: 2019-10-24 20:05
-
-Contribution: 2019-10-28 20:00
-
-Contribution: 2019-10-28 20:01
-
-Contribution: 2019-10-28 20:02
-
-Contribution: 2019-10-28 20:03
-
-Contribution: 2019-10-28 20:04
-
-Contribution: 2019-10-28 20:05
-
-Contribution: 2019-10-29 20:00
-
-Contribution: 2019-10-29 20:01
-
-Contribution: 2019-10-29 20:02
-
-Contribution: 2019-10-29 20:03
-
-Contribution: 2019-10-29 20:04
-
-Contribution: 2019-10-29 20:05
-
-Contribution: 2019-10-30 20:00
-
-Contribution: 2019-10-30 20:01
-
-Contribution: 2019-10-30 20:02
-
-Contribution: 2019-10-30 20:03
-
-Contribution: 2019-10-30 20:04
-
-Contribution: 2019-10-30 20:05
-
-Contribution: 2019-11-01 20:00
-
-Contribution: 2019-11-01 20:01
-
-Contribution: 2019-11-01 20:02
-
-Contribution: 2019-11-07 20:00
-
-Contribution: 2019-11-07 20:01
-
-Contribution: 2019-11-07 20:02
-
-Contribution: 2019-11-07 20:03
-
-Contribution: 2019-11-08 20:00
-
-Contribution: 2019-11-08 20:01
-
-Contribution: 2019-11-11 20:00
-
-Contribution: 2019-11-13 20:00
-
-Contribution: 2019-11-13 20:01
-
-Contribution: 2019-11-13 20:02
-
-Contribution: 2019-11-13 20:03
-
-Contribution: 2019-11-13 20:04
-
-Contribution: 2019-11-13 20:05
-
-Contribution: 2019-11-13 20:06
-
-Contribution: 2019-11-13 20:07
-
-Contribution: 2019-11-14 20:00
-
-Contribution: 2019-11-15 20:00
-
-Contribution: 2019-11-15 20:01
-
-Contribution: 2019-11-15 20:02
-
-Contribution: 2019-11-27 20:00
-
-Contribution: 2019-11-27 20:01
-
-Contribution: 2019-11-27 20:02
-
-Contribution: 2019-11-27 20:03
-
-Contribution: 2019-11-27 20:04
-
-Contribution: 2019-11-27 20:05
-
-Contribution: 2019-11-27 20:06
-
-Contribution: 2019-11-27 20:07
-
-Contribution: 2019-11-28 20:00
-
-Contribution: 2019-11-28 20:01
-
-Contribution: 2019-11-28 20:02
-
-Contribution: 2019-11-28 20:03
-
-Contribution: 2019-11-28 20:04
-
-Contribution: 2019-11-28 20:05
-
-Contribution: 2019-11-28 20:06
-
-Contribution: 2019-12-02 20:00
-
-Contribution: 2019-12-02 20:01
-
-Contribution: 2019-12-02 20:02
-
-Contribution: 2019-12-02 20:03
-
-Contribution: 2019-12-02 20:04
-
-Contribution: 2019-12-02 20:05
-
-Contribution: 2019-12-04 20:00
-
-Contribution: 2019-12-04 20:01
-
-Contribution: 2019-12-04 20:02
-
-Contribution: 2019-12-04 20:03
-
-Contribution: 2019-12-04 20:04
-
-Contribution: 2019-12-05 20:00
-
-Contribution: 2019-12-05 20:01
-
-Contribution: 2019-12-05 20:02
-
-Contribution: 2019-12-10 20:00
-
-Contribution: 2019-12-10 20:01
-
-Contribution: 2019-12-10 20:02
-
-Contribution: 2019-12-10 20:03
-
-Contribution: 2019-12-10 20:04
-
-Contribution: 2019-12-10 20:05
-
-Contribution: 2019-12-10 20:06
-
-Contribution: 2019-12-16 20:00
-
-Contribution: 2019-12-16 20:01
-
-Contribution: 2019-12-16 20:02
-
-Contribution: 2019-12-17 20:00
-
-Contribution: 2019-12-17 20:01
-
-Contribution: 2019-12-17 20:02
-
-Contribution: 2019-12-17 20:03
-
-Contribution: 2019-12-17 20:04
-
-Contribution: 2019-12-17 20:05
-
-Contribution: 2019-12-17 20:06
-
-Contribution: 2019-12-18 20:00
-
-Contribution: 2019-12-18 20:01
-
-Contribution: 2019-12-19 20:00
-
-Contribution: 2019-12-19 20:01
-
-Contribution: 2019-12-19 20:02
-
-Contribution: 2019-12-19 20:03
-
+<table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/65649115/218567761-fbeda72a-754e-4d28-ae08-c83f9360485e.png" /></td>
+    <td><img src="https://user-images.githubusercontent.com/65649115/218567770-f7e98ad8-bdfa-4552-ab08-effcf3c95643.png" alt="mockups" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/65649115/218567774-c4036d4c-12c6-400d-b278-c243b600c700.png" /></td>
+    <td><img src="https://user-images.githubusercontent.com/65649115/221517641-e93cf24f-9dda-4fe7-87fc-53054aeb17d2.png" /></td>
+  </tr>
+</table>
